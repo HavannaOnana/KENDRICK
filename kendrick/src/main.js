@@ -21,4 +21,27 @@ document.querySelector('#app').innerHTML = `
   </div>
 `
 
+document.querySelector("#firstpart").innerHTML = `
+  <div id="firstpart" class="firstpart">
+
+        <div class="firstlayer">
+             <h2>negative.</h2>
+             <div class="navbar">
+               <a href="#">home</a>
+               <a href="#">about us </a>
+               <a href="#" class="playlist">playlist</a>
+             </div>
+        </div>
+
+        <div class="firstparttext">
+            <h1>Kendrick<br>Lamar</h1>
+            <button type="button">explore</button>
+        </div>
+
+        <p class="info">Kendrick Lamar Duckworth is an American rapper, songwriter, and record producer.<br>
+           He is regarded as one of the most skillful and successfull hip hop artists<br> of his generation, with various media outlets<br> branding him the ``new king of hip hop'</p>
+        
+    </div>
+`;
+
 setupCounter(document.querySelector('#counter'))
