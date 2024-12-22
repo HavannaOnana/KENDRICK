@@ -24,10 +24,8 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
+
 }
 
 h1 {
@@ -93,4 +91,26 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+/*this is where the css starts*/
+.firstpart{
+  width: 100%;
+  display: flex;
+    flex-direction: column;
+}
+
+.firstlayer{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   width: 100vw;
+}
+
+.navbar{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  width: 20vw;
 }
